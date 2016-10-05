@@ -1,0 +1,87 @@
+<!--
+* Author : LLMCD Labs
+* Email : lmcdowell@llmcd.com
+* Website : http://www.llmcd.com
+* Subject : RXF web service built with PHP to create a Roku compatible XML feed for VOD channels.
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/style.css">
+<link href="//fonts.googleapis.com/css?family=Roboto:300,100" rel="stylesheet" type="text/css" />
+<style>
+label{display:inline-block;width:100px;margin-bottom:10px;}
+</style>
+ 
+ 
+<title>LLMCD Labs Add Feed Items</title>
+</head>
+<body id="text03">
+<br>
+<br>
+<center>
+Add Feed Items<br><br>
+
+<form method="post" action="websrv_rokufeed_insert.php">
+
+<ul class="FormStyle" id="text01">
+<label>Title</label>
+<input type="text" name="title" />
+<br />
+<label>SRT</label>
+<input type="text" name="srt" />
+<br />
+
+<label>Content ID</label>
+<input type="text" name="contentId" />
+
+
+<br />
+<label>Content Type</label>
+<input type="text" name="contentType" />
+
+<br />
+<label>Content Quality</label>
+<input type="text" name="contentQuality" />
+
+<br />
+<label>Stream Format</label>
+<input type="text" name="streamFormat" />
+<br />
+<label>Stream Quality</label>
+<input type="text" name="streamQuality" />
+<br />
+<label>Stream Bitrate</label>
+<input type="text" name="streamBitrate" />
+<br />
+<label>Stream URL</label>
+<input type="text" name="streamUrl" />
+<br />
+<label>Synopsis</label>
+<input type="text" name="synopsis" />
+<br />
+<label>Genres</label>
+<input type="text" name="genres" />
+<br />
+<label>Runtime</label>
+<input type="text" name="runtime" />
+ 
+
+</ul>
+
+
+
+
+
+
+
+<input type="submit" value="submit">
+</form>
+<br>
+ <a href="index.html">Go Back To Roku XML Feed Dashboard</a><br><br><br>
+</center>
+ 
+ 
+</body>
+</html>
